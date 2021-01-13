@@ -5,8 +5,12 @@ import SongList from "../components/SongList";
 
 function App() {
   return (
-    <div>
-      <SongList />
+    <div className="ui grid container" style={{marginTop: "4em"}}>
+      <div className="ui row">
+        <div className="eight wide column">
+          <SongList />
+        </div>
+      </div>
     </div>
   );
 }
