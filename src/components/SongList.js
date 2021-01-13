@@ -16,7 +16,6 @@ const SongList = (props) => {
 };
 //This can be named any thing but its a convention so use it as is
 const mapStateToProps = (state) => {
-    console.log(state);
   return { songs: state.songs };
 };
 
